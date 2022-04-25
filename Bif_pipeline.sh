@@ -34,7 +34,7 @@ time qiime demux summarize \
 cd ../results
 nohup time qiime dada2 denoise-paired \
  --i-demultiplexed-seqs ../seqs/demux.qza \
- --p-trim-left-f 17 --p-trim-left-r 20 \
+ --p-trim-left-f 23 --p-trim-left-r 22 \
  --p-trunc-len-f 260 --p-trunc-len-r 260 \
  --o-table table.qza \
  --o-representative-sequences rep-seqs.qza \
